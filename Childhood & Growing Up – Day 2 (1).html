@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Day 2 — Childhood & Growing Up</title>
+<style>
+:root{--bg:#fbf8f3;--card:#fff;--ink:#2a2723;--muted:#76706a;--line:#ece5da;--accent:#e4572e;--shadow:0 2px 10px rgba(60,40,10,.06);
+--chunk:#f97316;--verb:#3b82f6;--adjective:#a855f7;--adverb:#14b8a6;--connector:#eab308;--prep:#ec4899;--phrasal:#22c55e;--idiom:#ef4444;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171614;--card:#23211e;--ink:#f0ebe3;--muted:#a39c91;--line:#38342f;--shadow:none}}
+:root[data-theme="dark"]{--bg:#171614;--card:#23211e;--ink:#f0ebe3;--muted:#a39c91;--line:#38342f;--shadow:none}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 Georgia,"Times New Roman",serif}
+.ui{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.hero{background:linear-gradient(135deg,#f97316,#ec4899 55%,#a855f7);color:#fff;padding:34px 16px 70px}
+.hero>div{max-width:780px;margin:0 auto}
+.hero small{display:inline-block;background:rgba(255,255,255,.22);padding:3px 12px;border-radius:999px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
+.hero h1{font-size:2rem;line-height:1.2;margin:12px 0 6px}.hero p{margin:0;opacity:.92;font-size:1rem}
+.wrap{max-width:780px;margin:-44px auto 0;padding:0 16px 60px}
+.tabs{display:flex;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px;box-shadow:var(--shadow);margin-bottom:14px}
+.tabs button{flex:1;border:0;background:none;color:var(--muted);padding:10px;border-radius:999px;font-size:.95rem;font-weight:600;cursor:pointer}
+.tabs button.on{background:var(--accent);color:#fff}
+.legend{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px;margin-bottom:16px;box-shadow:var(--shadow)}
+.legend .t{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:8px;display:flex;justify-content:space-between;align-items:center}
+.legend .t button{border:0;background:none;color:var(--accent);font-weight:600;cursor:pointer;font-size:.78rem;padding:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--c);background:color-mix(in srgb,var(--c) 14%,transparent);color:var(--ink);padding:5px 11px;border-radius:999px;font-size:.82rem;cursor:pointer}
+.chip i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.chip b{font-weight:600;opacity:.6;font-size:.75rem}
+.chip.off{background:none;border-color:var(--line);color:var(--muted)}.chip.off i{background:var(--line)}
+.rule{background:color-mix(in srgb,var(--chunk) 10%,var(--card));border:1px solid color-mix(in srgb,var(--chunk) 35%,var(--line));border-radius:14px;padding:12px 16px;margin-bottom:16px;font-size:.95rem}
+.rule b{color:var(--chunk)}.rule code{background:var(--card);padding:1px 6px;border-radius:6px;font-family:inherit;font-style:italic}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 20px;margin-bottom:14px;box-shadow:var(--shadow)}
+.card h2{display:flex;align-items:center;gap:10px;font-size:1.1rem;margin:0 0 8px}
+.card h2 span{flex:none;width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;font-size:.85rem}
+.card p{margin:0}.line{margin:5px 0!important}
+mark{background:color-mix(in srgb,var(--c) 24%,transparent);border-bottom:2.5px solid var(--c);color:inherit;border-radius:4px 4px 0 0;padding:0 2px}
+.m-chunk{--c:var(--chunk)}.m-verb{--c:var(--verb)}.m-adjective{--c:var(--adjective)}.m-adverb{--c:var(--adverb)}.m-connector{--c:var(--connector)}.m-prep{--c:var(--prep)}.m-phrasal{--c:var(--phrasal)}.m-idiom{--c:var(--idiom)}
+.vh{display:flex;align-items:center;gap:8px;font-size:.85rem;text-transform:uppercase;letter-spacing:.07em;font-weight:700;margin:24px 0 8px;color:var(--c)}
+.vh i{width:12px;height:12px;border-radius:50%;background:var(--c)}
+.vc{border-left:5px solid var(--c)}
+.v{display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--line)}
+.v:last-child{border:0}.v b{color:var(--c);font-size:1.05rem}.v small{display:block;color:var(--muted);font-size:.92rem;font-style:italic}
+.es{color:var(--muted);font-size:.9rem;text-align:right}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<div class="hero"><div class="ui">
+<small>Day 2 · A2</small>
+<h1 style="font-family:Georgia,serif">Childhood & Growing Up</h1>
+<p>Read the stories. Every color is a type of vocabulary.</p>
+</div></div>
+<div class="wrap ui">
+<div class="tabs"><button id="t-s" class="on">Stories</button><button id="t-v">Vocabulary</button></div>
+<div class="legend"><div class="t"><span>Tap a color to show / hide it</span><button id="all">Show all</button></div><div class="chips" id="chips"></div></div>
+<div id="stories"></div>
+<div id="vocab" hidden></div>
+</div>
+<script>
+const CATS={chunk:"Chunks",verb:"Verbs",adjective:"Adjectives",adverb:"Adverbs",connector:"Connectors",prep:"Prepositions",phrasal:"Phrasal verbs",idiom:"Idiom"};
+const pats=[
+["chunk","didn['’]t use to|used to|use to|when I was a child|things were different back then|I remember when"],
+["idiom","back in the day"],
+["phrasal","grow(?:ing)? up|grew up|grown up|hang(?:ing)? out|hung out"],
+["adverb","back then|usually|often"],
+["adjective","young|different|happy|free"],
+["verb","play(?:s|ed|ing)?|rid(?:e|es|ing)|rode|visit(?:s|ed|ing)?|watch(?:es|ed|ing)?|spen[dt]|spending"],
+["connector","however|when|but"],
+["prep","in|with"]];
+const re=new RegExp(pats.map(p=>"\\b("+p[1]+")\\b").join("|"),"gi");
+const esc=s=>s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+const mark=s=>esc(s).replace(re,(...a)=>{let i=a.findIndex((x,k)=>k>0&&k<=pats.length&&x!==undefined);return `<mark class="m-${pats[i-1][0]}" title="${CATS[pats[i-1][0]]}">${a[0]}</mark>`});
+const stories=[
+["The Small Town","When I was a child, I used to live in a very small town. I grew up there with my family. I used to play outside every day until the sun went down. I didn't have a phone or a computer, but I was very happy."],
+["The First Bicycle","I remember when I got my first bicycle. I was very young, maybe seven years old. I used to ride my bike to school every morning. I felt so free when I rode it very fast down the hill."],
+["Grandparents' House","My grandparents lived in the country. I often visited them on weekends. I used to spend a lot of time with their dogs. Back then, the city was very far away, so it was a very quiet and peaceful place."],
+["Saturday Mornings","I didn't use to watch a lot of TV during the week because I had school. I usually preferred to read. But on Saturday mornings, I used to wake up early to watch my favorite cartoons."],
+["Technology","Things were different back then. We didn't have internet in our houses. We used to go to the library to do our homework. However, we learned a lot from reading real books. It was a very different experience."],
+["Park Evenings","Back in the day, children used to hang out in the park all afternoon. When it was dark, our mothers used to call us for dinner. Did you use to do that too?"],
+["A Different Diet","I didn't use to like green vegetables. I usually ate only chicken and potatoes. Did you use to eat your vegetables when you were a child? Now, I love salads!"],
+["Summer Vacations","We used to spend our summer vacations in a cabin near the river. I went with my cousins. We used to swim all day. Life was simpler. However, those were the best days of my life."],
+["Changing Hobbies","I used to play with toy cars all the time. But as I grew up, my hobbies changed. I stopped playing with toys, and I used to spend my time playing sports with my classmates."],
+["After School","I remember when school finished at 3 PM. My friends and I used to hang out at the bakery near the school. When we had a little money, we used to buy sweet bread and talk for hours."],
+["The Old Neighborhood","When I was a child, my neighborhood was very safe. We didn't use to lock our doors during the day. I often walked to the store alone. Things were different back then."],
+["Roleplay (Student A & B)",["Student A: Things were different back then, right?","Student B: Yes! Back in the day, we didn't use to have video games in our pockets.","Student A: True. We used to invent our own games with our friends.","Student B: I felt so free. Life was completely different, but very happy."]]];
+const vocab={chunk:[["I used to…","Yo solía…","I used to play outside every day."],["When I was a child…","Cuando era niño/a…","When I was a child, I used to ride my bike."],["I didn't use to…","Yo no solía…","I didn't use to watch TV very much."],["Things were different back then.","Las cosas eran diferentes en aquella época.","Things were different back then. We didn't have smartphones."],["I remember when…","Recuerdo cuando…","I remember when I used to visit my grandparents."]],
+verb:[["Play","Jugar","I used to play soccer with my friends."],["Ride","Montar / andar en","I used to ride my bike to school."],["Visit","Visitar","I used to visit my grandparents every weekend."],["Watch","Ver / mirar","I used to watch cartoons after school."],["Spend","Pasar (tiempo)","I used to spend a lot of time outside."]],
+adjective:[["Young","Joven / pequeño","I was very young."],["Different","Diferente","Life was very different back then."],["Happy","Feliz","I was very happy as a child."],["Free","Libre","I felt free when I played outside."]],
+adverb:[["Usually","Usualmente","I usually played outside."],["Often","A menudo","I often visited my cousins."],["Back then","En aquella época","Back then, we didn't have smartphones."]],
+connector:[["When","Cuando","When I was a child, I used to play outside."],["But","Pero","I used to play outside, but now I stay at home more."],["However","Sin embargo","Life was simpler. However, we didn't have the technology we have today."]],
+prep:[["In","En","I lived in a small town."],["With","Con","I used to play with my cousins."]],
+phrasal:[["Grow up","Crecer","I grew up in Bogotá."],["Hang out","Pasar el rato / pasar tiempo con alguien","I used to hang out with my friends after school."]],
+idiom:[["Back in the day","En los viejos tiempos / en aquella época","Back in the day, children used to play outside more."]]};
+const S=document.getElementById("stories"),V=document.getElementById("vocab"),C=document.getElementById("chips");
+S.innerHTML=`<div class="rule"><b>Rule:</b> <code>I used to + verb</code> (past habit) · <code>I didn't use to + verb</code> (no "d" in <i>use to</i> after didn't).</div>`+
+stories.map((s,i)=>`<div class="card"><h2><span>${i+1}</span>${esc(s[0])}</h2>`+(Array.isArray(s[1])?s[1].map(l=>`<p class="line">${mark(l)}</p>`).join(""):`<p>${mark(s[1])}</p>`)+`</div>`).join("");
+V.innerHTML=Object.keys(CATS).map(k=>`<div class="vh m-${k}"><i></i>${CATS[k]}</div><div class="card vc m-${k}">`+vocab[k].map(([en,es,ex])=>`<div class="v"><div><b>${esc(en)}</b><small>${mark(ex)}</small></div><div class="es">${esc(es)}</div></div>`).join("")+`</div>`).join("");
+const st=document.createElement("style");st.textContent=Object.keys(CATS).map(k=>`.off-${k} mark.m-${k}{background:none;border-color:transparent}`).join("");document.head.appendChild(st);
+C.innerHTML=Object.keys(CATS).map(k=>`<button class="chip m-${k}" data-k="${k}"><i></i>${CATS[k]} <b>${S.querySelectorAll("mark.m-"+k).length}</b></button>`).join("");
+C.onclick=e=>{const b=e.target.closest(".chip");if(!b)return;const k=b.dataset.k;b.classList.toggle("off");document.body.classList.toggle("off-"+k)};
+document.getElementById("all").onclick=()=>{C.querySelectorAll(".chip").forEach(b=>b.classList.remove("off"));Object.keys(CATS).forEach(k=>document.body.classList.remove("off-"+k))};
+const ts=document.getElementById("t-s"),tv=document.getElementById("t-v");
+ts.onclick=()=>{S.hidden=false;V.hidden=true;ts.classList.add("on");tv.classList.remove("on")};
+tv.onclick=()=>{S.hidden=true;V.hidden=false;tv.classList.add("on");ts.classList.remove("on")};
+</script>
+</body>
+</html>
